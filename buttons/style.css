@@ -7,21 +7,18 @@
     color: #2bbbad;
     border: 2px solid #2bbbad;
     border-radius: 30px;
-    padding: 10px 40px;
+    padding: 5px 50px;
     font-size: 20px;
     font-weight: bold;
 }
 
-
-
 .add {
-    background-color: teal;
+    background-color: #2bbbad;
     color: white;
     font-size: 18px;
     border-radius: 50%;
     padding: 5px 10px;
     border: none;
-    cursor: pointer;
 }
 
 .account {
@@ -32,5 +29,4 @@
     padding: 10px 20px;
     font-size: 20px;
     box-shadow: 5px 5px 0px 0px #000;
-    cursor: pointer;
 }
