@@ -1,0 +1,36 @@
+.container {
+    margin: 5px;
+}
+
+.search {
+    background-color: #f7f7f7;
+    color: #2bbbad;
+    border: 2px solid #2bbbad;
+    border-radius: 30px;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.add {
+    background-color: teal;
+    color: white;
+    font-size: 18px;
+    border-radius: 50%;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.account {
+    background-color: blue;
+    color: white;
+    border: 3px solid #000;
+    border-radius: 0px;
+    padding: 10px 20px;
+    font-size: 20px;
+    box-shadow: 5px 5px 0px 0px #000;
+    cursor: pointer;
+}
