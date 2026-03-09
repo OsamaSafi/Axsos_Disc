@@ -1,0 +1,250 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+header{
+    background-color: #000;
+    color: #fff;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.links-logo{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.links-logo a{
+    color: #fff;
+}
+
+.links-logo ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav button {
+    padding: 7px 25px;
+    background-color: teal;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.container{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    /* background-color: #000; */
+}
+
+.container .main {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+    gap: 40px;
+    flex: 3;
+}
+
+.container .main .user-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container .main .user-card .empty-div {
+    height: 100px;
+    width: 100%;
+    background-color:teal ;
+}
+
+.container .main .user-card .card{
+    padding: 10px 50px;
+    border: 4px solid rgba(128, 128, 128, 0.532);
+    position: relative;
+    width: 100%;
+}
+
+.container .main .user-card .card .user-icon{
+    width: 90px;
+    height: 100px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.container .main .user-card .card span {
+    width: 100px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.532);
+    border-radius: 50%;
+    position: absolute;
+    top:0px;
+    left: 100px;
+    transform: translate(-50%, -50%);
+}
+
+
+.container .main .user-card .card h1 {
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+.container .main .user-card .card .map{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.container .main .user-card .card p:last-of-type {
+    margin-bottom: 15px;
+}
+
+.container .main .user-card .card .map-icon {
+    width: 25px;
+    height: 30px;
+}
+
+.container .main .user-card .card .edit{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.container .main .user-card .card .edit a {
+    text-decoration: underline;
+}
+
+.container .main .user-card .card .edit-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.education{
+    width: 100%;
+}
+
+.education .title{
+    background-color: #000000c1;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.education .content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+    border: 4px solid rgba(128, 128, 128, 0.532);
+    padding: 20px 50px;
+}
+
+
+.container .side {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 30px 0;
+    gap: 40px;
+}
+
+
+.container .side .title{
+    background-color: #000000c1;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container .side  .contents {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+    border: 4px solid rgba(128, 128, 128, 0.532);
+    padding: 20px 10px;
+} 
+
+.container .side .connection-req .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.container .side .connection-req .content .actions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    gap: 15px;
+}
+
+.container .side .content .user-info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.container .side .content .user-icon{
+    width: 40px;
+    height: 40px;
+}
+
+.connection-request-span{
+    background-color: gray;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+
+
+.container .side .your-connection .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.container .side .your-connection .footer{
+        border: 4px solid rgba(128, 128, 128, 0.532);
+        width: 100%;
+        padding: 10px;
+}
