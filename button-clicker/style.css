@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.container nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: gray;
+    color: #fff;
+}
+
+.container nav input{
+    padding: 8px 10px;
+    width: 20%;
+}
+
+.container nav .btn-login {
+    background-color: blue;
+    color: #fff;
+    border: 3px solid #000;
+    padding: 10px;
+    box-shadow: 3px 3px 0px 0px #000;
+}
+
+.box{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.box-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+}
+
+.box-right .content{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    border: 2px solid #000;
+    padding: 15px;
+}
+
+.box-right .content .right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.box-right .content .right button{
+    background-color: yellow;
+    padding: 10px;
+    box-shadow: 3px 3px 0px 0px #000;
+}
+.box-left{
+    width: 35%;
+}
+
+.box-left .content{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #000;
+    padding: 15px;
+}
+
+.box-left .content button{
+    background-color: rgba(0, 128, 0, 0.518);
+    padding: 10px;
+    box-shadow: 3px 3px 0px 0px #000;
+}
