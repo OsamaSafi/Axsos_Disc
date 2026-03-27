@@ -10,16 +10,54 @@
 </head>
 
 <body>
-    <main>
-        <div class="content">
-            <h1>Some User</h1>
-            <p><span class="counter">0</span> like(s)</p>
-            <button class="like-btn" onclick="count()">Like</button>
+    <div class="container">
+        <nav>
+            <h1>Network</h1>
+        </nav>
+        <h1 class="title">Your Feed</h1>
+        <div class="main-content">
+            <div class="user-inf">
+                <img src="./images/user-circle.png" width="60" height="60" alt="">
+                <a href="#">add img</a>
+                <h2>Osama</h2>
+            </div>
+            <div class="boxes">
+                <main>
+                    <div class="content">
+                        <h1>Some User</h1>
+                        <p><span class="counter1">0</span> like(s)</p>
+                        <button class="like-btn" onclick="addLike('.counter1')">Like</button>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, pariatur.
+                    </p>
+                </main>
+                <main>
+                    <div class="content">
+                        <h1>Some User</h1>
+                        <p><span class="counter2">0</span> like(s)</p>
+                        <button class="like-btn" onclick="addLike('.counter2')">Like</button>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, pariatur.
+                    </p>
+                </main>
+                <main>
+                    <div class="content">
+                        <h1>Some User</h1>
+                        <p><span class="counter3">0</span> like(s)</p>
+                        <button class="like-btn" onclick="addLike('.counter3')">Like</button>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, pariatur.
+                    </p>
+                </main>
+            </div>
+
         </div>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, pariatur.
-        </p>
-    </main>
+    </div>
+
+
 
     <script src="main.js"></script>
 </body>
